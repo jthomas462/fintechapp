@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    {% for key, value in result.items() %}
+        <p>{{value}}</p>
+    {% endfor %}
+{% endblock %}
